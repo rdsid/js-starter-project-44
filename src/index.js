@@ -1,10 +1,10 @@
 import getName from './cli.js';
 
-export default function playGame(game) {
+export default function playGame(chosenGame) {
   let counter = 0;
   const name = getName();
   do {
-    if (game(name)) {
+    if (chosenGame(name)) {
       counter += 1;
     } else {
       return;
