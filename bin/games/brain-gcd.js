@@ -4,8 +4,8 @@ import playGame from '../../src/index.js';
 import generateNumber from '../helpers/generateRandomNumber.js';
 
 function playGcd(name) {
-  const num1 = generateNumber();
-  const num2 = generateNumber();
+  const num1 = generateNumber(50);
+  const num2 = generateNumber(50);
   let biggestNumber = 0;
   if (num1 >= num2) {
     biggestNumber = num1;

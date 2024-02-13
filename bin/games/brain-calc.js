@@ -5,8 +5,8 @@ import generateOperand from '../helpers/generateOperand.js';
 import generateNumber from '../helpers/generateRandomNumber.js';
 
 function playCalc(name) {
-  const num1 = generateNumber();
-  const num2 = generateNumber();
+  const num1 = generateNumber(20);
+  const num2 = generateNumber(20);
   const operand = generateOperand();
 
   console.log('What is the result of the expression?');

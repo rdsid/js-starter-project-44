@@ -11,7 +11,7 @@ function isOdd(num) {
 }
 
 function playEven(name = 'anonymous') {
-  const number = generateNumber();
+  const number = generateNumber(100);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const answer = readlineSync.question(`Question: ${number}\nYour answer: `);
   if (isOdd(number) && answer !== 'yes') {
