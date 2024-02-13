@@ -8,3 +8,5 @@
 <a href="https://asciinema.org/a/2PhFuCMNGpMTU53nlOtPmqzvA" target="_blank"><img src="https://asciinema.org/a/2PhFuCMNGpMTU53nlOtPmqzvA.svg" /></a>
 <h2>Brain GCD</h2>
 <a href="https://asciinema.org/a/FWcgwCku0OvVdD8PA8t7hwGho" target="_blank"><img src="https://asciinema.org/a/FWcgwCku0OvVdD8PA8t7hwGho.svg" /></a>
+<h2>Brain Progression</h2>
+<a href="https://asciinema.org/a/fIrEYKpUixWUX074kMSnIkDHE" target="_blank"><img src="https://asciinema.org/a/fIrEYKpUixWUX074kMSnIkDHE.svg" /></a>
