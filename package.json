@@ -1,0 +1,28 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "project from hexlet, few games",
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "start": "node bin/brain-games.js"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdsid/js-starter-project-44.git"
+  },
+  "keywords": [
+    "learning",
+    "js",
+    "hexlet"
+  ],
+  "author": "@etoyatik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdsid/js-starter-project-44/issues"
+  },
+  "homepage": "https://github.com/rdsid/js-starter-project-44#readme"
+}
