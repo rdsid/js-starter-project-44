@@ -1,6 +1,7 @@
 import getName from './cli.js';
 
 export default function playGame(chosenGame) {
+  console.log('Welcome to the Brain Games!');
   let counter = 0;
   const name = getName();
   do {
