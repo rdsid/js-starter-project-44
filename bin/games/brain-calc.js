@@ -11,12 +11,18 @@ function playCalc(name) {
 
   console.log('What is the result of the expression?');
   const answer = readlineSync.question(`Question: ${num1} ${operand} ${num2}\nYour answer: `);
-  const result = parseInt(`${num1} ${operand} ${num2}`, 10);
-  if (result === parseInt(answer, 10)) {
+  let res;
+  switch (operand) {
+    case '+': res = num1 + num2; break;
+    case '-': res = num1 - num2; break;
+    case '*': res = num1 * num2; break;
+    default: res = num1 + num2;
+  }
+  if (res === parseInt(answer, 10)) {
     console.log('Correct!');
     return true;
   }
-  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${name}!`);
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${res}'.\nLet's try again, ${name}!`);
   return false;
 }
 

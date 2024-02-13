@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "project from hexlet, few games",
-  "main": "bin/games/brain-games.js",
+  "main": "bin/brain-games.js",
   "scripts": {
     "start": "node bin/brain-games.js"
   },
