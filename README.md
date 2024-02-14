@@ -5,15 +5,15 @@
 <code>make install</code>
 
 <h2>Запуск</h2>
-в корне проекта:
+в корне проекта:<br>
 <code>npm link</code>
 
-дальше в терминале:
-<code>$ brain-even</code> - четное или нечетное
-<code>$ brain-calc</code> - калькулятор
-<code>$ brain-gcd</code> - наибольший общий делитель
-<code>$ brain-progression</code> - заполнить пропуск в арифмитической прогрессии
-<code>$ brain-prime</code> - простое или составное число
+дальше в терминале:<br>
+<code>$ brain-even</code> - четное или нечетное<br>
+<code>$ brain-calc</code> - калькулятор<br>
+<code>$ brain-gcd</code> - наибольший общий делитель<br>
+<code>$ brain-progression</code> - заполнить пропуск в арифмитической прогрессии<br>
+<code>$ brain-prime</code> - простое или составное число<br>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/rdsid/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rdsid/js-starter-project-44/actions)
