@@ -5,8 +5,8 @@
 <code>make install</code>
 
 <h2>Запуск</h2>
-в корне проекта:<br><br>
-<code>npm link</code>
+в корне проекта:<br>
+<code>npm link</code><br><br>
 
 дальше в терминале:<br>
 <code>$ brain-even</code> - четное или нечетное<br>
