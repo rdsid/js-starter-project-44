@@ -5,7 +5,7 @@
 <code>make install</code>
 
 <h2>Запуск</h2>
-в корне проекта:<br>
+в корне проекта:<br><br>
 <code>npm link</code>
 
 дальше в терминале:<br>
