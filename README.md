@@ -1,3 +1,20 @@
+<h2>Описание проекта</h2>
+Несколько незатейливых математических игр, в которые можно поиграть прямо из консоли
+
+<h2>Установка</h2>
+<code>make install</code>
+
+<h2>Запуск</h2>
+в корне проекта:<br>
+<code>npm link</code><br><br>
+
+дальше в терминале:<br>
+<code>$ brain-even</code> - четное или нечетное<br>
+<code>$ brain-calc</code> - калькулятор<br>
+<code>$ brain-gcd</code> - наибольший общий делитель<br>
+<code>$ brain-progression</code> - заполнить пропуск в арифмитической прогрессии<br>
+<code>$ brain-prime</code> - простое или составное число<br>
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/rdsid/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rdsid/js-starter-project-44/actions)
 
