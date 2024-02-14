@@ -6,7 +6,7 @@ import generateNumber from '../helpers/generateRandomNumber.js';
 function playPrime(name) {
   const num = generateNumber();
   let res = 'yes';
-  for (let i = 2; i < num / 2; i += 1) {
+  for (let i = 2; i <= num / 2; i += 1) {
     if (num % i === 0) {
       res = 'no';
     }
